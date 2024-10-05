@@ -1,0 +1,185 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFE3D8;
+    padding: 0;
+    margin: 0;
+}
+
+.brand {
+    font-size: 3.5rem; 
+    color: #FA7070 !important;
+}
+
+.hero-section {
+    margin: 60px 100px 40px 100px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.hero {
+    width: 40vw;
+    height: 50vh;
+    margin-left: auto;
+}
+
+.title {
+    color: #405D72;
+    font-size: 2.4rem;
+    margin-top: -100px;
+    padding-left: 20px;
+}
+
+.hero-container {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.details-container {
+    width: 50%;
+}
+.details-container a{
+    margin-left: 20px;
+}
+
+.description {
+    color: #758694;
+    font-family: monospace;
+    padding-left: 20px;
+}
+.navbar .collapse{
+    margin-left: 50%;
+}
+.navbar-nav .nav-link {
+    color: #7C96AB !important;
+    font-size: 1.5em;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FA7070 !important;
+}
+
+.carousel-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 100px;
+}
+
+.carousel-img {
+    height: 120px;
+    width: 15vw;
+}
+.items {
+    border-radius: 10px;
+    margin: 16px;
+    padding: 16px;
+    width: 300px;
+    text-align: center;
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.items:hover {
+    transform: scale(1.05);
+}
+
+.card-container {
+    margin: 30px 100px;
+}
+.restuarant-container .row{
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+.restaurant-card {
+    border: 2px solid #FA7070;
+    border-radius: 10px;
+}
+
+.card-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card-rating {
+    margin-left: auto;
+}
+
+footer {
+    background-color: #405D72;
+}
+
+
+/* Media Queries for Smaller Devices */
+@media (max-width: 768px) {
+    .brand {
+        font-size: 2.5rem; /* Smaller font size */
+    }
+    .hero-section{
+        width: 90vw;
+        margin: 10px !important;
+        padding: 10px !important;
+    }
+    .hero-container{
+        margin-top: 100px;
+        flex-direction: column;
+        padding: auto !important;
+    }
+    .details-container{
+        width: 90% !important;
+    }
+    .title {
+        font-size: 1.8rem;
+    }
+
+    .hero {
+        width: 90% !important;
+
+    }
+    .carousel-img {
+        width: 30vw;
+    }
+    .carousel-section{
+        flex-wrap: wrap;
+    }
+
+    .items {
+        width: 100%; 
+    }
+
+    .card-container {
+        margin: 20px 3vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .brand {
+        font-size: 2rem; /* Further reduced font size */
+    }
+
+    .hero-section {
+        margin: 20px 2vw;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .carousel-img {
+        width: 60vw; 
+    }
+
+    .items {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .card-container {
+        margin: 10px 2vw;
+    }
+}

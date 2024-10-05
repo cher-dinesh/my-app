@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFE3D8;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    margin: auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+}
+.table{
+    background-color: inherit;
+}
+.profile-card {
+    background-color: inherit;
+    border: none;
+    margin-bottom: 50px;
+}
+.cart-body form{
+    background-color: none;
+}
+.brand {
+    font-size: 3.5rem;
+    color: #FA7070 !important;
+}
+.form-group{
+    margin-bottom: 10px;
+}
+.form-group label {
+    font-size: 1.2em;
+    color: #40506a;
+}
+
+button, input[type="submit"] {
+    background-color: #FA7070;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #ff5c5c;
+}

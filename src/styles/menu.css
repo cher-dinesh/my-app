@@ -1,0 +1,93 @@
+@charset "UTF-8";
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFE3D8;
+    padding: 0;
+    margin: 0;
+}
+
+.brand {
+    font-size: 3.5rem; 
+    color: #FA7070 !important;
+}
+
+.nav-section {
+    margin: 60px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.navbar-nav .nav-link {
+    color: #7C96AB !important;
+    font-size: 1.5em;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FA7070 !important;
+}
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu-item {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 16px;
+    padding: 16px;
+    width: 300px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+}
+
+.menu-item img {
+    width: 70%;
+    margin: auto;
+    height: auto; /* Keep it responsive */
+    border-radius: 8px;
+}
+
+.menu-item:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.item-count {
+    margin: auto;
+    padding: auto;
+    font-size: 20px;
+}
+
+.label {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.menu-item button {
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.menu-item button:hover {
+    background-color: #218838;
+}
+
+.card-title {
+    color: #134B70;
+    font-weight: bold;
+}
+
+.card-text {
+    padding-left: 10px;
+    text-align: left;
+}
